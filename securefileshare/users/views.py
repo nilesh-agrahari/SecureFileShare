@@ -61,7 +61,7 @@ class UserSignupView(APIView):
             token = s.dumps(user.email)
 
             # Verification link
-            verification_link = f"http://localhost:8000/api/verify-email/{token}/"
+            verification_link = f"http://localhost:8000/users/verify-email/{token}/"
 
             # Send email
             send_mail(
