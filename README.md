@@ -11,6 +11,12 @@ Steps for Install dependensies :
 > source env/bin/activate  # on Windows use `env\Scripts\activate`
 > cd securefileshare
 > pip install -r requirements.txt
+
+
+
+>  goto settings.py inside securefileshare and paste your email id and password in EMAIL_HOST _USER  & EMAIL_HOST_PASSWORD
+
+  
 > python manage.py migrate
 > python manage.py runserver
 
